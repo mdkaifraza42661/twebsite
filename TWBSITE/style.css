@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-inner img{
+    height: 92.5vh!important;
+}
+
+@media  (min-width: 300px)and (max-width:768px) {
+    .carousel-inner img{
+        height: unset!important;
+    }  
+}
